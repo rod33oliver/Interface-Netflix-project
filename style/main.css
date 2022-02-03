@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*elementos-base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    color: white;   
 }
 
 
@@ -33,9 +35,34 @@ header nav a{
     text-decoration: none;
     color: #AAA;
     margin: 5px;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
 header nav a:hover{
     color: #fff;
 }
+
+/*filme-principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/img1.jpg'); 
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+    }
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+ }
+
+ .filme-principal .titulo{
+     margin-bottom: 8px;
+     font-size: 33px;
+ }
